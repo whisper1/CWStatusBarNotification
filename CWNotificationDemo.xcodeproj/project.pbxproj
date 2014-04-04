@@ -374,8 +374,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CWNotificationDemo/CWNotificationDemo-Prefix.pch";
 				INFOPLIST_FILE = "CWNotificationDemo/CWNotificationDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "011AB632-84C3-4980-9B7B-99FA7D10876E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,8 +391,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CWNotificationDemo/CWNotificationDemo-Prefix.pch";
 				INFOPLIST_FILE = "CWNotificationDemo/CWNotificationDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "011AB632-84C3-4980-9B7B-99FA7D10876E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
