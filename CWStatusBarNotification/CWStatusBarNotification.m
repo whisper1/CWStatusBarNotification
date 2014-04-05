@@ -149,7 +149,6 @@ static void cancel_delayed_block(CWDelayedBlockHandle delayedHandle)
         if (IOS7_AND_ABOVE) {
             self.notificationLabelBackgroundColor = [[UIApplication sharedApplication] delegate].window.tintColor;
         }
-        NSLog(@"windows: %@", [[UIApplication sharedApplication] windows]);
         self.notificationLabelTextColor = [UIColor whiteColor];
         self.notificationStyle = CWNotificationStyleStatusBarNotification;
         self.notificationAnimationInStyle = CWNotificationAnimationStyleBottom;
